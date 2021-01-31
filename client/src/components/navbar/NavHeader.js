@@ -7,7 +7,7 @@ export default function NavHeader() {
       <Link className="navbar-brand bodoni" to="/">
         academy.kz
       </Link>
-      <div className="prata link">Кіру</div>
+      <Link className="prata link" to="/auth">Кіру</Link>
     </nav>
   );
 }

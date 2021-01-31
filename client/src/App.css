@@ -8,14 +8,19 @@
 }
 
 :root{
-    --bg-color: #E5E5E5;
+    --bg-color: #c5e3f6;
     --dark-blue: #0E153A;
     --black: #000000;
     --white: #ffffff;
 }
 
-body, .app{
+html, body, .app{
     background-color: var(--bg-color);
+}
+.app{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 /*********Main styles*********/
 .prata{
@@ -28,7 +33,7 @@ body, .app{
 
 .link{
     cursor: pointer;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 .bg-dark-blue{
     background-color: #0E153A;
@@ -77,4 +82,20 @@ a{
     background-color: var(--dark-blue) !important;
     color: var(--white) !important;
     outline: none;
+}
+
+/***** footer ******/
+.footer{
+    margin-top: auto;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--dark-blue);
+    color: var(--white);
+    align-items: center;
+    height: 60px;
+}
+.auth{
+    min-height: 400px;
 }

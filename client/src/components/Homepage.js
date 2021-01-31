@@ -3,7 +3,7 @@ import Card from "./cards/HomeCard"
 
 export default function Homepage() {
   return (
-    <div className="container">
+    <div className="container mb-5">
       <header className="homepage-header row">
         <div className="col-xs-12 col-md-6 m-auto">
         <h3 className="font-text">

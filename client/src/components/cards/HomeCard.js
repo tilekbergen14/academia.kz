@@ -12,7 +12,7 @@ export default function HomeCard({title, icon}) {
         icon = <QuestionCircleFill size="50px"/>
     }
     return (
-        <div className="col-md-4 card-box px-5">
+        <div className="col-md-12 col-lg-4 card-box px-5 my-2">
             <div className='card'>
                 <h4>{title}</h4>
                 {icon}
