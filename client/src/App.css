@@ -99,3 +99,12 @@ a{
 .auth{
     min-height: 400px;
 }
+
+/**********scrollbar**********/
+::-webkit-scrollbar{
+    width: 5px;
+    background-color: var(--bg-color);
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--dark-blue);
+}
